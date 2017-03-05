@@ -1,0 +1,345 @@
+﻿Log file open, 03/05/17 14:46:33
+LogInit:Display: Running engine for game: HovercraftTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(37855587) SRandInit(37855587).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077998
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.05-13.46.34:887][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-13.46.34:887][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.05-13.46.34:899][  0]LogInit: Computer: DESKTOP-MB4QQP4
+[2017.03.05-13.46.34:899][  0]LogInit: User: ALBERTO
+[2017.03.05-13.46.34:899][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.03.05-13.46.34:899][  0]LogInit: High frequency timer resolution =2.143476 MHz
+[2017.03.05-13.46.34:899][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.05-13.46.34:899][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.05-13.46.34:899][  0]LogMemory: Process Physical Memory: 262.44 MB used, 262.44 MB peak
+[2017.03.05-13.46.34:899][  0]LogMemory: Process Virtual Memory: 262.14 MB used, 262.14 MB peak
+[2017.03.05-13.46.34:899][  0]LogMemory: Physical Memory: 2949.63 MB used,  5156.21 MB free, 8105.84 MB total
+[2017.03.05-13.46.34:899][  0]LogMemory: Virtual Memory: 642.49 MB used,  5156.21 MB free, 134217728.00 MB total
+[2017.03.05-13.46.34:988][  0]LogTextLocalizationManager: No translations for ('it-IT') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.05-13.46.35:984][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.05-13.46.35:993][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.03.05-13.46.35:993][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.03.05-13.46.36:373][  0]LogD3D11RHI:    1. 'AMD Radeon (TM) R5 M330' (Feature Level 11_0)
+[2017.03.05-13.46.36:373][  0]LogD3D11RHI:       1015/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2017.03.05-13.46.36:375][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.05-13.46.36:375][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.05-13.46.36:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.03.05-13.46.36:380][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.05-13.46.36:380][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.05-13.46.36:380][  0]LogWindows: EnumDisplayDevices:
+[2017.03.05-13.46.36:380][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.03.05-13.46.36:380][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.03.05-13.46.36:380][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.03.05-13.46.36:381][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.05-13.46.36:381][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R5 M330
+[2017.03.05-13.46.36:381][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.05-13.46.36:381][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.05-13.46.36:381][  0]LogRHI: Texture pool is 710 MB (70% of 1015 MB)
+[2017.03.05-13.46.36:401][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.05-13.46.36:416][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.05-13.46.36:417][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Intermediate/Shaders/WorkingDirectory/7532/).
+[2017.03.05-13.46.36:418][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ALBERTO/AppData/Local/Temp/UnrealShaderWorkingDir/F150B1524A61796CE65910B606A361DD/'.
+[2017.03.05-13.46.36:418][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.05-13.46.38:132][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.05-13.46.38:196][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.05-13.46.38:258][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.05-13.46.38:322][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.05-13.46.38:388][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.05-13.46.38:450][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.05-13.46.38:513][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.05-13.46.38:575][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.05-13.46.38:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.05-13.46.38:690][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.05-13.46.38:766][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.05-13.46.38:844][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.05-13.46.38:922][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.05-13.46.38:985][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.05-13.46.39:046][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.05-13.46.39:171][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.05-13.46.39:171][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.05-13.46.39:215][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.05-13.46.39:320][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.05-13.46.39:360][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.05-13.46.39:423][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.05-13.46.39:484][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.05-13.46.39:544][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.05-13.46.39:606][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.05-13.46.39:606][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.05-13.46.40:133][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/ALBERTO/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ALBERTO/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.05-13.46.40:203][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.05-13.46.40:226][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.05-13.46.40:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ALBERTO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.05-13.46.40:249][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.05-13.46.40:250][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-13.46.40:250][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.05-13.46.40:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.05-13.46.40:532][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.05-13.46.40:766][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.05-13.46.40:814][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.05-13.46.40:863][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.05-13.46.40:863][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.05-13.46.40:863][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.05-13.46.41:594][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: hovercrafttest, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3518955244
+[2017.03.05-13.46.41:642][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.03.05-13.46.41:697][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.021673 seconds
+[2017.03.05-13.46.41:703][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.05-13.46.41:703][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.05-13.46.41:703][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.05-13.46.41:771][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.05-13.46.43:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.05-13.46.43:558][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.05-13.46.44:043][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.05-13.46.44:458][  0]SourceControl: Info Source control is disabled
+[2017.03.05-13.46.44:498][  0]SourceControl: Info Source control is disabled
+[2017.03.05-13.46.44:548][  0]SourceControl: Info Source control is disabled
+[2017.03.05-13.46.44:596][  0]SourceControl: Info Source control is disabled
+[2017.03.05-13.46.45:896][  0]LogEngine: Initializing Engine...
+[2017.03.05-13.46.45:897][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.05-13.46.46:164][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.05-13.46.46:170][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.05-13.46.46:202][  0]LogInit: FAudioDevice initialized.
+[2017.03.05-13.46.46:239][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/ALBERTO/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.05-13.46.46:247][  0]LogInit: Texture streaming: Enabled
+[2017.03.05-13.46.46:350][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.05-13.46.46:445][  0]LogInit: Transaction tracking system initialized
+[2017.03.05-13.46.46:824][  0]BlueprintLog: New page: Editor Load
+[2017.03.05-13.46.47:801][  0]LocalizationService: Info Localization service is disabled
+[2017.03.05-13.46.48:530][  0]LogConsoleResponse:Display: 
+[2017.03.05-13.46.48:693][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.05-13.46.48:693][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.05-13.46.49:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/' took 0.01s
+[2017.03.05-13.46.49:803][  0]SourceControl: Info Source control is disabled
+[2017.03.05-13.46.49:803][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-13.46.49:804][  0]LightingResults: New page: Lighting Build
+[2017.03.05-13.46.49:849][  0]MapCheck: New page: Map Check
+[2017.03.05-13.46.49:849][  0]LightingResults: New page: Lighting Build
+[2017.03.05-13.46.50:094][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.05-13.46.50:095][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.05-13.46.50:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-13.46.50:107][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-13.46.50:146][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.461ms to complete.
+[2017.03.05-13.46.50:146][  0]LogFileHelpers: Loading map 'Template_Default' took 0.343
+[2017.03.05-13.46.50:202][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.05-13.46.50:369][  0]LogCollectionManager: Loaded 0 collections in 0.000990 seconds
+[2017.03.05-13.46.50:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Collections/' took 0.01s
+[2017.03.05-13.46.50:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/Developers/ALBERTO/Collections/' took 0.01s
+[2017.03.05-13.46.50:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/Collections/' took 0.01s
+[2017.03.05-13.46.50:472][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.05-13.46.50:485][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2244 classes and 450 folders.
+[2017.03.05-13.46.50:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.05-13.46.50:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.05-13.46.50:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.05-13.46.50:672][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.05-13.46.50:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.05-13.46.50:820][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.05-13.46.50:829][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.05-13.46.50:906][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.05-13.46.50:906][  0]LogLoad: (Engine Initialization) Total time: 18.58 seconds
+[2017.03.05-13.46.50:906][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.03.05-13.46.50:906][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.05-13.46.50:906][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.05-13.46.50:916][  0]LogOcInput: OculusInput pre-init called
+[2017.03.05-13.46.50:940][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.05-13.46.50:941][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.05-13.46.50:946][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.05-13.46.50:959][  0]LogSlate: Took 0.001984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.05-13.46.51:128][  0]LogRenderer: Reallocating scene render targets to support 764x308 NumSamples 1 (Frame:2).
+[2017.03.05-13.46.51:265][  1]LogAssetRegistry: Asset discovery search completed in 9.6455 seconds
+[2017.03.05-13.46.51:265][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000111 seconds (found 0 objects)
+[2017.03.05-13.46.51:265][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2017.03.05-13.46.51:952][ 36]LogSlate: Took 0.002901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-13.46.55:077][209]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-13.47.16:796][404]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.05-13.47.16:825][404]LogAIModule: Creating AISystem for world Test_Hover
+[2017.03.05-13.47.16:861][404]Cmd: MAP LOAD FILE="../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/Test_Hover.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-13.47.16:861][404]LightingResults: New page: Lighting Build
+[2017.03.05-13.47.16:863][404]LoadErrors: New page: Loading map: Test_Hover.umap
+[2017.03.05-13.47.16:864][404]MapCheck: New page: Map Check
+[2017.03.05-13.47.16:864][404]LightingResults: New page: Lighting Build
+[2017.03.05-13.47.16:888][404]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-13.47.16:908][404]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-13.47.16:948][404]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.497ms to complete.
+[2017.03.05-13.47.16:948][404]LogFileHelpers: Loading map 'Test_Hover' took 0.088
+[2017.03.05-13.47.22:082][687]Cmd: MAP LOAD FILE="../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/Test_Hover.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.05-13.47.22:082][687]LightingResults: New page: Lighting Build
+[2017.03.05-13.47.22:084][687]LoadErrors: New page: Loading map: Test_Hover.umap
+[2017.03.05-13.47.22:084][687]MapCheck: New page: Map Check
+[2017.03.05-13.47.22:084][687]LightingResults: New page: Lighting Build
+[2017.03.05-13.47.22:113][687]LogAIModule: Creating AISystem for world Test_Hover
+[2017.03.05-13.47.22:116][687]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.05-13.47.22:135][687]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.05-13.47.22:175][687]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.337ms to complete.
+[2017.03.05-13.47.22:175][687]LogFileHelpers: Loading map 'Test_Hover' took 0.094
+[2017.03.05-13.47.40:287][667]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.03.05-13.47.41:096][667]LogSlate: Took 0.001604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.05-13.53.28:677][995]LogSlate: Took 0.001803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.05-13.58.13:569][810]BlueprintLog: New page: Compile BP_hoverComponent
+[2017.03.05-13.58.53:053][512]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test_Hover' took 0.043
+[2017.03.05-13.58.53:057][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_hoverComponent] ([1] browsable assets)...
+[2017.03.05-13.58.53:057][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_hoverComponent]
+[2017.03.05-13.58.53:074][512]LogSavePackage: Save=11.33ms
+[2017.03.05-13.58.53:074][512]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/BP_hoverComponent_Auto15A7509D2474C1B5986864780B7FBFABF.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/BP_hoverComponent_Auto1.uasset'
+[2017.03.05-13.58.53:079][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/BP_hoverComponent_Auto1.uasset
+[2017.03.05-13.58.53:079][512]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.03.05-14.08.53:305][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Test_Hover' took 0.046
+[2017.03.05-14.08.53:308][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_hoverComponent] ([1] browsable assets)...
+[2017.03.05-14.08.53:308][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_hoverComponent]
+[2017.03.05-14.08.53:322][999]LogSavePackage: Save=9.96ms
+[2017.03.05-14.08.53:322][999]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/BP_hoverComponent_Auto26BA0107E4C108782ADA918B0A75E77FC.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/BP_hoverComponent_Auto2.uasset'
+[2017.03.05-14.08.53:326][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/BP_hoverComponent_Auto2.uasset
+[2017.03.05-14.08.53:328][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewInterface] ([1] browsable assets)...
+[2017.03.05-14.08.53:328][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewInterface]
+[2017.03.05-14.08.53:333][999]LogSavePackage: Save=2.62ms
+[2017.03.05-14.08.53:333][999]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/NewInterface_Auto273B94ABC4F7D634D4726A1B5C1518E0A.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/NewInterface_Auto2.uasset'
+[2017.03.05-14.08.53:336][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Autosaves/Game/NewInterface_Auto2.uasset
+[2017.03.05-14.08.53:336][999]LogFileHelpers: Auto-saving content packages took 0.030
+[2017.03.05-14.13.09:410][677]LogMetaData: Removing '/Game/BPI_HoverVeicle.SKEL_BPI_HoverVeicle_C' ref from Metadata '/Game/NewInterface.PackageMetaData'
+[2017.03.05-14.13.09:410][677]LogMetaData: Removing '/Game/BPI_HoverVeicle.BPI_HoverVeicle_C' ref from Metadata '/Game/NewInterface.PackageMetaData'
+[2017.03.05-14.13.09:429][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPI_HoverVeicle" FILE="../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/BPI_HoverVeicle.uasset" SILENT=true
+[2017.03.05-14.13.09:436][677]LogSavePackage: Save=2.79ms
+[2017.03.05-14.13.09:436][677]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/BPI_HoverVeicle38DE5D1F49388AAD15E49CBA1CD95BF0.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/BPI_HoverVeicle.uasset'
+[2017.03.05-14.13.09:447][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/BPI_HoverVeicle.uasset
+[2017.03.05-14.17.17:249][276]BlueprintLog: New page: Compile BP_hoverComponent
+[2017.03.05-14.18.22:773][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/misc/Misc_powerCurve" FILE="../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset" SILENT=true
+[2017.03.05-14.18.22:780][835]LogSavePackage: Save=2.53ms
+[2017.03.05-14.18.22:780][835]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Misc_powerCurve5C89B35B40534C55CE9E859B6701D932.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset'
+[2017.03.05-14.18.22:787][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset
+[2017.03.05-14.18.30:418][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/misc/Misc_powerCurve" FILE="../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset" SILENT=true
+[2017.03.05-14.18.30:423][749]LogSavePackage: Save=1.74ms
+[2017.03.05-14.18.30:423][749]LogSavePackage: Moving '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Saved/Misc_powerCurve527C03AF433339611E5717ABC8A79676.tmp' to '../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset'
+[2017.03.05-14.18.30:430][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ALBERTO/Documents/Hovercraft_Vlab/HovercraftTest/Content/misc/Misc_powerCurve.uasset
+[2017.03.05-14.22.30:865][199]BlueprintLog: New page: Compile BP_hoverComponent
+[2017.03.05-14.22.45:012][868]BlueprintLog: New page: Collapse to Function
+[2017.03.05-14.22.49:842][438]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.03.05-14.22.53:903][912]BlueprintLog: New page: Collapse to Macro
+[2017.03.05-14.23.02:813][973]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.03.05-14.23.14:466][348]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.03.05-14.23.18:394][806]BlueprintLog: New page: Collapse to Function
+[2017.03.05-14.25.35:791][133]Cmd: TRANSACTION UNDO
+[2017.03.05-14.25.35:791][133]LogEditorTransaction: Undo Rename Parameter
+[2017.03.05-14.25.36:797][247]LogEditorTransaction: Undo Rename Parameter
+[2017.03.05-14.25.37:121][281]LogEditorTransaction: Undo Change Pure
+[2017.03.05-14.25.38:147][399]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.03.05-14.25.38:781][399]LogCrashTracker: 
+
+
+[2017.03.05-14.25.38:781][399]LogCrashTracker: 
+
+
+[2017.03.05-14.25.38:781][399]LogWindows:Error: === Critical error: ===
+[2017.03.05-14.25.38:781][399]LogWindows:Error: 
+[2017.03.05-14.25.38:781][399]LogWindows:Error: Fatal error!
+[2017.03.05-14.25.38:781][399]LogWindows:Error: 
+[2017.03.05-14.25.38:781][399]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2017.03.05-14.25.38:781][399]LogWindows:Error: 
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F58AA819
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5942415
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F59E68DE
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2C7175
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2CDD41
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD45E9CD
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC60D812
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC60C1D6
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC5C3DED
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC5C7464
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD379A69
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD3C753E
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD3794B0
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD3D7987
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD48A371
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD48A420
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5CF17F3
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5CBBAD9
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5914135
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F58D9036
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F589159C
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5895FDC
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Engine.dll!0x00000000F62A2F5A
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC17B4E3
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F59EEB81
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBE50116
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBE76AD2
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBE5F909
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBE5FFCB
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBEC28AD
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FBF07DB1
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F5891941
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000F58963E6
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2B8894
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2FDBC2
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC616EEE
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000FC6012A4
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2A31D4
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD27376E
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD275366
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2FF449
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Slate.dll!0x00000000FD2EE3C8
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Core.dll!0x00000000FE0CCB2C
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Core.dll!0x00000000FE0B67B1
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Core.dll!0x00000000FE0CEA0C
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Core.dll!0x00000000FE0B26D9
+[2017.03.05-14.25.38:781][399]LogWindows:Error: USER32.dll!0x00000000234D1C24
+[2017.03.05-14.25.38:781][399]LogWindows:Error: USER32.dll!0x00000000234D156C
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor-Core.dll!0x00000000FE0CF316
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor.exe!0x0000000006C7D790
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor.exe!0x0000000006C6EB40
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor.exe!0x0000000006C6EBBA
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor.exe!0x0000000006C80A29
+[2017.03.05-14.25.38:781][399]LogWindows:Error: UE4Editor.exe!0x0000000006C822B6
+[2017.03.05-14.25.38:781][399]LogWindows:Error: KERNEL32.DLL!0x0000000023258364
+[2017.03.05-14.25.38:781][399]LogWindows:Error: ntdll.dll!0x0000000023E570D1
+[2017.03.05-14.25.38:781][399]LogWindows:Error: ntdll.dll!0x0000000023E570D1
+[2017.03.05-14.25.38:781][399]LogWindows:Error: 
+[2017.03.05-14.25.38:817][399]LogExit: Executing StaticShutdownAfterError
+[2017.03.05-14.25.38:823][399]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.03.05-14.25.38:823][399]Log file closed, 03/05/17 15:25:38
